@@ -1,0 +1,112 @@
+/* static/styles.css */
+.custom-input {
+    border: 2px solid #252525;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.custom-input:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+
+/* styles.css */
+.custom-header {
+    font-size: 2.5rem; /* Ajuste o tamanho conforme necessário */
+    color: #fa0000;       /* Ajuste a cor conforme necessário */
+    margin-bottom: 2rem; /* Ajuste a margem inferior conforme necessário */
+    font-weight: bold;  /* Ajuste o peso da fonte conforme necessário */
+}
+
+/* styles.css */
+body {
+    background-color: #171a21; /* Substitua pelo código da cor desejada */
+}
+
+/* styles.css */
+.content-background {
+    background-color: #171a21; /* Substitua pelo código da cor desejada */
+    padding: 20px; /* Ajuste o padding conforme necessário */
+    border-radius: 8px; /* Ajuste o border-radius se desejar bordas arredondadas */
+}
+
+/* styles.css */
+.custom-header-background {
+    background-color: #007bff; /* Substitua pelo código da cor desejada */
+    color: rgb(255, 0, 0); /* Define a cor do texto para contrastar com o fundo */
+    padding: 10px;
+}
+
+
+h1,h3,p{
+    color: #ffffff;
+}
+
+.custom-navbar {
+    background-color: #3498db; /* Cor de fundo da navbar personalizada */
+}
+
+.custom-list-group {
+    background-color: #171a21; /* Cor de fundo da lista */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px;
+}
+
+.custom-list-group .list-group-item {
+    border: 1px solid hsl(0, 0%, 16%); /* Cor da borda dos itens da lista */
+    border-radius: 4px; /* Bordas arredondadas dos itens */
+    margin-bottom: 5px; /* Espaçamento entre os itens */
+    padding: 10px 15px;
+    background-color: #4b4a4a; /* Cor de fundo dos itens */
+    color: #495057; /* Cor do texto dos itens */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-list-group .list-group-item a {
+    color: #ffffff; /* Cor dos links */
+    text-decoration: none;
+}
+
+.custom-list-group .list-group-item a:hover {
+    text-decoration: underline;
+}
+
+.custom-list-group .list-group-item .btn-danger {
+    background-color: #dc3545; /* Cor do botão de deletar */
+    border-color: #dc3545;
+    color: #171a21;
+}
+
+label{
+    color: #ffffff;
+}
+
+.custom-list-group .list-group-item .btn-warning {
+    color: #171a21;
+}
+
+
+.text-success {
+    color: #28a745;
+    text-align: left;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+span{
+    text-align: left;
+}
+
+.custom-list-group .list-group-item .btn-success {
+    margin-right: 10px;
+}
+
